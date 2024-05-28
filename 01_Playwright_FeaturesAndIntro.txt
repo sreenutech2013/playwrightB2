@@ -1,0 +1,24 @@
+
+Playwright :- 
+
+Application suported :- all web browser applications , mobile web app , api 
+Web browser :- Chromium , webkit , firefox 
+Languages supported :- javascript , Ts , Java , python , .net
+OS - All most all OS, windows , MAC, Linux , CI
+
+Features :- 
+free and open source 
+Multi browser and muti language 
+Setup is easy 
+Funtional , api , accessibility testing , visual testing 
+devtools access
+built-in reporters , custom report , supports 3rd party report plugins like allure 
+ci/cd/ct . docker 
+Parallel testing 
+Auto wait 
+built-in assertions and Auto wait
+multi tab and multi window 
+frames and shadow dow 
+test prameters 
+emulators mobile devices 
+Fast 

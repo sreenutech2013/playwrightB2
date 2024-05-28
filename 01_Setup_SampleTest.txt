@@ -1,0 +1,7 @@
+Playwright - 2
+
+How to setup playwright
+write first test in playwright 
+xpaths or locator 
+
+ 
