@@ -1,7 +1,28 @@
 Playwright - 2
 
 How to setup playwright
-write first test in playwright 
-xpaths or locator 
+write first test in playwright
+ 
+xpaths or locator or selectors 
+
+Default selectors 
+xpaths
+css
+
+Project URL :- https://opensource-demo.orangehrmlive.com
 
  
+
+locators/Selectors :- 
+css
+Identify using class :- 
+tag.classname --> if any space between the class name , use '.' instead of space
+
+Identify using attribute 
+tag[attribute=value] eg:- input[name='username']
+
+Identify using ID:-
+#IDvalue , eg :- #searchText
+
+property
+xpath -- Advance
