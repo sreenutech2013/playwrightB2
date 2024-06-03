@@ -24,5 +24,15 @@ tag[attribute=value] eg:- input[name='username']
 Identify using ID:-
 #IDvalue , eg :- #searchText
 
+
+
+
 property
-xpath -- Advance
+id='username' --> Kumar need to come back 
+
+
+xpath -- Advance 
+
+Following Sibling :- //label[text()='Username']/..//following-sibling::div/input
+
+ancestor:- //label[text()='Username']//ancestor::div[@class="oxd-form-row"]
