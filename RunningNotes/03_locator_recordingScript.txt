@@ -1,0 +1,12 @@
+
+Locator function in playwright
+
+Single locator webelement 
+
+locator function --> await page.locator(selector).
+
+Recording the script and recording option  --> npx playwright codegen
+
+locate multiple webelements
+
+In-built locators :- 
