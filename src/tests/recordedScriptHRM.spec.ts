@@ -33,4 +33,9 @@ test('test', async ({ page }) => {
   await page.getByText('5', { exact: true }).click();
   await page.locator('form span i').click();
   await page.getByRole('button', { name: 'Save' }).click();
+
+  // await page.locator("//img[@alt='company-branding']").click()
+  // await page.getByAltText('company-branding').click();
+
+
 });

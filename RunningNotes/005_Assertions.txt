@@ -1,0 +1,10 @@
+Assertions :- 
+eg:- await except(locator).toBeVisible();
+please refer the link for more avalible functions:- https://playwright.dev/docs/test-assertions
+
+
+
+Auto-Retry assertions 
+no-retry assertions  expect('Ram').toBe('Ram')	
+Not match 
+

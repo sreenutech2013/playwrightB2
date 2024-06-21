@@ -21,12 +21,17 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
-  timeout: 30 * 60 * 1000,
+  timeout:   300 * 1000,
+
+  expect : {timeout:10000},
 
 
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+    baseURL: "https://opensource-demo.orangehrmlive.com/",
+
+    testIdAttribute: 'data-pw',
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
@@ -39,9 +44,18 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
+      name: 'HRM',
       use: { ...devices['Desktop Chrome'] },
     },
+
+
+      {
+        name: 'DEMO',
+        use: {
+          ...devices['Desktop Chrome'],
+          baseURL: "https://demo.automationtesting.in"
+        },
+      },
 
    
 

@@ -1,0 +1,14 @@
+
+
+
+
+Use block 
+
+Generic locator handlers --> DOM handling with browser console --> js cmd
+
+Keyboard and mouse events 
+
+
+
+Need to comeback on 
+Filter -- Dropdown handler with UI/LI
