@@ -13,7 +13,7 @@ export class UIhelper {
 
     }
 
-    async handleAllKindsOfDropDown(locator: string, listOfValue: any) {
+   async handleAllKindsOfDropDown(locator: string, listOfValue: any) {
         let newLocator = await this.page.$$(locator);
         for (let eachLocater of newLocator) {
             let value: any = await eachLocater.textContent()

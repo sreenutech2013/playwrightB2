@@ -5,7 +5,7 @@ test.use({ baseURL: 'https://demoqa.com' })
 let dropDownPage: DropDownPage
 
 
-test.only("handle MultiDrop value field", async ({ page }) => {
+test("handle MultiDrop value field", async ({ page }) => {
 
     await page.goto("/select-menu");
     dropDownPage = new DropDownPage(page);
