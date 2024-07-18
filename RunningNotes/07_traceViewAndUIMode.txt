@@ -1,0 +1,6 @@
+
+
+
+UI Mode:- npx playwright test --ui
+
+trace view:- npx playwright show-trace trace.zip

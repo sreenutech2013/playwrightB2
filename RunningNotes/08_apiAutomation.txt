@@ -1,0 +1,29 @@
+
+API --> Testing and Automation 
+
+HTTPS --> secure 
+
+
+
+			Method 		endpoint 		filter-qp  --> RESPONSE with data 
+
+request :- get data --> emp data --> filtering --> respond with data 
+
+post -->  post data --> user --> Create --> deatils --> username , password , fullname 
+--> sending data to server or logical layer --> store the data if valid in DB -> finally reponse with status 
+
+put
+
+delete			
+
+https://opensource-demo.orangehrmlive.com/web/dist/js/app.js?v=1711595107870
+
+api automation :- 
+
+1. install axios through package.json
+2. write the test by importing axios 
+3. make you config var with valid url, method , header and payload(data)
+4. request the api and store the response in a var 
+
+
+
