@@ -1,0 +1,13 @@
+
+1. api --> Done 
+2. Handling fileupload --> Done but i should ou write example for upload site 
+3. one time login handler in playwright 
+StepuP and tearDown
+
+4. Config file
+5. multi lang and geo location 
+7. final working sesstion with UI and API integrated
+
+
+6. Frame work
+6. ci/cd 
