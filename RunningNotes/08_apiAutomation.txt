@@ -27,3 +27,42 @@ api automation :-
 
 
 
+API ?
+
+
+Google --> maps --> swiggy/uber 
+
+maps  are deployed by some login --> 1000 functions -->should not allow swiggy for entire code -->
+an interface is needed to deploy only few functions of 1000function --> Application program interface
+--> exposed to outside of the work --> using endpoint/address
+
+https request for entire --> hosted few costed as API which again uses https protocal 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
